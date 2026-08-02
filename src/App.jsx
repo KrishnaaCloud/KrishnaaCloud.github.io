@@ -4,6 +4,12 @@ import './index.css';
 function App() {
   const projects = [
     {
+      name: "MSK to EventBridge Webhook Pipeline",
+      description: "Architected a serverless pipeline using AWS EventBridge Pipes to natively push real-time data from a private Amazon MSK cluster to an external Supabase webhook, bypassing EC2 runners.",
+      link: "#",
+      tags: ["Amazon MSK", "EventBridge", "Serverless", "AWS VPC"]
+    },
+    {
       name: "aws-msk-kafka-platform",
       description: "Enterprise-scale migration of 65+ connectors and 200+ topics from self-managed Kafka to Amazon MSK, featuring automated staggered ingestion and AWS Secrets Manager integration.",
       link: "https://github.com/KrishnaaCloud/aws-msk-kafka-platform",
