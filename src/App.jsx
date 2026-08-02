@@ -6,7 +6,7 @@ function App() {
     {
       name: "MSK to EventBridge Webhook Pipeline",
       description: "Architected a serverless pipeline using AWS EventBridge Pipes to natively push real-time data from a private Amazon MSK cluster to an external Supabase webhook, bypassing EC2 runners.",
-      link: "#",
+      link: "https://github.com/KrishnaaCloud/MSK-to-EventBridge-Webhook-Pipeline",
       tags: ["Amazon MSK", "EventBridge", "Serverless", "AWS VPC"]
     },
     {
