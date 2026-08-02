@@ -63,7 +63,11 @@ function App() {
                   <span key={idx} className="tag">{tag}</span>
                 ))}
               </div>
-              <a href={project.link} target="_blank" rel="noreferrer" className="project-link">View Repository ↗</a>
+              {project.link !== "#" ? (
+                <a href={project.link} target="_blank" rel="noreferrer" className="project-link">View Repository ↗</a>
+              ) : (
+                <span className="project-link" style={{ cursor: 'not-allowed', opacity: 0.6 }}>Private Repository</span>
+              )}
             </div>
           ))}
         </div>
