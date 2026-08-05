@@ -11,7 +11,7 @@ const Projects = () => {
     },
     {
       name: "aws-msk-kafka-platform",
-      description: "Enterprise-scale migration of 65+ connectors and 200+ topics from self-managed Kafka to Amazon MSK, featuring automated staggered ingestion and AWS Secrets Manager integration.",
+      description: "Led zero-downtime migration of 481 topics / 5 GB daily throughput from self-managed Kafka to Amazon MSK. Automated staggered ingestion, integrated AWS Secrets Manager, and reduced DB query spike incidents by 57%.",
       link: "https://github.com/KrishnaaCloud/aws-msk-kafka-platform",
       tags: ["Amazon MSK", "Apache Kafka", "Data Engineering"]
     },

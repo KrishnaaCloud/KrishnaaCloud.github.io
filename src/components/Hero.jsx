@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaFileDownload } from 'react-icons/fa';
 
 const Hero = () => {
   return (
@@ -14,12 +14,16 @@ const Hero = () => {
         <img src="/profile.jpg" alt="Jothi Krishna M" className="profile-img" />
       </div>
       <h1 className="name-title">Jothi Krishna M</h1>
-      <h2 className="role-title">3X AWS Certified Solutions Architect</h2>
+      <h2 className="role-title">3X AWS Certified | DevOps Engineer Professional</h2>
       <p className="bio">
-        Hands-on experience in managing and optimizing cloud infrastructure. Skilled in deploying and configuring enterprise-scale AWS services, automated CI/CD pipelines, and robust Data Engineering platforms.
+        Platform and DevOps Engineer with 3+ years of hands-on production experience. Independently own enterprise-scale Kafka/MSK platforms and ECS infrastructure at Isha Foundation. AWS Certified DevOps Engineer – Professional, Solutions Architect – Associate, and Cloud Practitioner.
       </p>
       <div className="contact-links">
-        <a href="https://github.com/KrishnaaCloud" target="_blank" rel="noreferrer" className="btn primary">
+        <a href="/resume.docx" download="Jothi_Krishna_Resume.docx" className="btn primary">
+          <FaFileDownload size={20} />
+          Download Resume
+        </a>
+        <a href="https://github.com/KrishnaaCloud" target="_blank" rel="noreferrer" className="btn secondary">
           <FaGithub size={20} />
           GitHub Profile
         </a>
