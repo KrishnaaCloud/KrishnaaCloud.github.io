@@ -10,7 +10,10 @@ const Hero = () => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
     >
-      <h1 className="name-title">Krishna Muthukumar</h1>
+      <div className="profile-container">
+        <img src="/profile.jpg" alt="Jothi Krishna M" className="profile-img" />
+      </div>
+      <h1 className="name-title">Jothi Krishna M</h1>
       <h2 className="role-title">3X AWS Certified Solutions Architect</h2>
       <p className="bio">
         Hands-on experience in managing and optimizing cloud infrastructure. Skilled in deploying and configuring enterprise-scale AWS services, automated CI/CD pipelines, and robust Data Engineering platforms.
@@ -20,7 +23,7 @@ const Hero = () => {
           <FaGithub size={20} />
           GitHub Profile
         </a>
-        <a href="https://linkedin.com/in/jothi-krishna-m" target="_blank" rel="noreferrer" className="btn secondary">
+        <a href="https://www.linkedin.com/in/jothi-krishna-m-07a275190/" target="_blank" rel="noreferrer" className="btn secondary">
           <FaLinkedin size={20} />
           LinkedIn
         </a>

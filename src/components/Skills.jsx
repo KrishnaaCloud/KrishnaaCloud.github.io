@@ -6,17 +6,20 @@ const Skills = () => {
     {
       name: "AWS Certified DevOps Engineer – Professional",
       image: "/aws-certified-devops-engineer-professional.png",
-      id: "6e687b08-4d71-4bcd-9b5c-de80793e34fc"
+      id: "6e687b08-4d71-4bcd-9b5c-de80793e34fc",
+      url: "https://www.credly.com/badges/6e687b08-4d71-4bcd-9b5c-de80793e34fc/public_url"
     },
     {
       name: "AWS Certified Solutions Architect - Associate",
       image: "/aws-certified-solutions-architect-associate.png",
-      id: "94b7d279-91c8-479c-b3a0-9e674de96ff3"
+      id: "94b7d279-91c8-479c-b3a0-9e674de96ff3",
+      url: "https://www.credly.com/badges/94b7d279-91c8-479c-b3a0-9e674de96ff3/public_url"
     },
     {
       name: "AWS Certified Cloud Practitioner",
       image: "/aws-certified-cloud-practitioner.png",
-      id: "533d0689-4db4-4511-b72f-a63606ba53be"
+      id: "8e756783-9f77-420c-8e1a-9d3e9ed45811",
+      url: "https://www.credly.com/badges/8e756783-9f77-420c-8e1a-9d3e9ed45811/public_url"
     }
   ];
 
@@ -34,9 +37,13 @@ const Skills = () => {
     >
       <div className="certifications-container">
         {certifications.map((cert, index) => (
-          <motion.div 
+          <motion.a 
             key={index} 
+            href={cert.url}
+            target="_blank"
+            rel="noreferrer"
             className="cert-card"
+            style={{ textDecoration: 'none' }}
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -47,7 +54,7 @@ const Skills = () => {
               <h5>{cert.name}</h5>
               <span className="cert-id">ID: {cert.id}</span>
             </div>
-          </motion.div>
+          </motion.a>
         ))}
       </div>
 
