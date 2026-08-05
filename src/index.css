@@ -482,3 +482,15 @@ footer {
 .modal-close:hover {
   opacity: 1;
 }
+
+/* Background Glow */
+.background-glow {
+  position: fixed;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(212, 149, 77, 0.15) 0%, rgba(212, 149, 77, 0) 70%);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 0;
+  mix-blend-mode: screen;
+}
