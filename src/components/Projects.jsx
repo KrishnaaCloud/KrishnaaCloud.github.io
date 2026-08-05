@@ -4,6 +4,12 @@ import ProjectCard from './ProjectCard';
 const Projects = () => {
   const projectsList = [
     {
+      name: "AWS-MSK-Cross-Cloud-Proxy",
+      description: "Advanced networking architecture utilizing HAProxy and TCP SNI routing to securely connect external cloud providers (Azure, GCP) to private Amazon MSK brokers without a VPN.",
+      link: "https://github.com/KrishnaaCloud/AWS-MSK-Cross-Cloud-Proxy",
+      tags: ["Amazon MSK", "HAProxy", "Networking", "TCP/SNI"]
+    },
+    {
       name: "MSK to EventBridge Webhook Pipeline",
       description: "Architected a serverless pipeline using AWS EventBridge Pipes to natively push real-time data from a private Amazon MSK cluster to an external Supabase webhook, bypassing EC2 runners.",
       link: "https://github.com/KrishnaaCloud/MSK-to-EventBridge-Webhook-Pipeline",
