@@ -6,7 +6,7 @@ const Projects = () => {
 
   const projectsList = [
     {
-      name: "Enterprise AWS ECS Microservice (High-Traffic)",
+      name: "Global API: High-Traffic Microservice Architecture",
       description: "Architected a mission-critical async-first Python microservice on AWS ECS, successfully serving 3.5M+ weekly requests. Engineered unified Cloudflare DNS routing from multiple domains into a single ALB. Deployed full infrastructure via AWS CDK.",
       link: "https://github.com/KrishnaaCloud/Enterprise-AWS-ECS-Microservice",
       tags: ["AWS CDK", "Python", "ECS", "Cloudflare", "MongoDB"],
@@ -19,13 +19,7 @@ const Projects = () => {
       tags: ["Serverless", "EventBridge", "AWS CDK", "Lambda", "DynamoDB"],
       category: "All"
     },
-    {
-      name: "Internal Playwright Testing Platform",
-      description: "Architected a centralized Next.js and Express platform for orchestrating automated Playwright browser tests. Built a secure Node.js local agent using WebSockets to execute browser tests locally without compromising EC2 server security.",
-      link: "https://github.com/KrishnaaCloud/Playwright-Agent",
-      tags: ["Node.js", "Next.js", "Express", "WebSockets", "Playwright"],
-      category: "All"
-    },
+
     {
       name: "AWS-ECS-Cross-Region-Migration",
       description: "Led the end-to-end replication and stabilization of a high-traffic enterprise architecture. Diagnosed and resolved cascading failures involving ECS, ALB timeouts, and RDS database locking using AWS CloudTrail and CloudWatch.",
@@ -46,6 +40,13 @@ const Projects = () => {
       link: "https://github.com/KrishnaaCloud/MSK-to-EventBridge-Webhook-Pipeline",
       tags: ["Amazon MSK", "EventBridge", "Serverless", "AWS VPC"],
       category: "MSK"
+    },
+    {
+      name: "Internal Playwright Testing Platform",
+      description: "Architected a centralized Next.js and Express platform for orchestrating automated Playwright browser tests. Built a secure Node.js local agent using WebSockets to execute browser tests locally without compromising EC2 server security.",
+      link: "https://github.com/KrishnaaCloud/Playwright-Agent",
+      tags: ["Node.js", "Next.js", "Express", "WebSockets", "Playwright"],
+      category: "All"
     },
     {
       name: "aws-msk-kafka-platform",
