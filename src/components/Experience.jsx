@@ -22,25 +22,28 @@ const Experience = () => {
     {
       company: "ServerCake India",
       role: "DevOps Engineer",
-      date: "Nov 2022 - Feb 2025 · 2 yrs 4 mos",
+      date: "Nov 2022 - Apr 2025",
       type: "Full-time",
-      summary: "Managed cloud resources and CI/CD pipelines.",
+      summary: "Managed multi-client AWS infrastructure, secure VPC architectures, and CI/CD automation.",
       details: [
-        "Automated CI/CD pipelines, managed cloud resources, and implemented robust IaC practices.",
-        "Led infrastructure deployments using Terraform.",
-        "Maintained Kubernetes clusters and deployed microservices."
+        "Deployed and maintained core AWS infrastructure (EC2, VPC, RDS, Lambda) for multi-client environments, ensuring strict IAM access control and workload isolation.",
+        "Architected secure VPC networks with robust subnet segmentation, route tables, and NACLs tailored for diverse client hosting requirements.",
+        "Built and administered automated CI/CD pipelines using GitHub Actions and Jenkins for streamlined application builds and deployments.",
+        "Engineered event-driven automation using AWS Lambda for S3-triggered processing, scheduled maintenance, and API Gateway integrations.",
+        "Hardened security posture and optimized global delivery by tuning Cloudflare CDN, WAF, and firewall rules."
       ]
     },
     {
       company: "ServerCake India",
       role: "CloudOps Engineer",
-      date: "Jul 2022 - Nov 2022 · 5 mos",
+      date: "Jul 2022 - Nov 2022",
       type: "Full-time",
-      summary: "Monitored server health and supported migrations.",
+      summary: "Administered high-availability Linux/Windows hosting platforms for 400+ customers.",
       details: [
-        "Monitored server health, resolved operational issues, and supported cloud migrations.",
-        "Managed daily backups and disaster recovery drills.",
-        "Provided L2 support for cloud infrastructure issues."
+        "Managed enterprise Linux and Windows hosting environments, ensuring 99.9% uptime and operational reliability for 400+ shared hosting customers and 45+ resellers.",
+        "Administered industry-standard hosting control panels including cPanel, WHM, Plesk, Webuzo, and DirectAdmin.",
+        "Owned complete mail server operations, advanced DNS routing, and the end-to-end SSL/TLS certificate lifecycle across all hosting environments.",
+        "Supported primary cloud operations by deploying and maintaining baseline AWS infrastructure (EC2, IAM)."
       ]
     }
   ];
