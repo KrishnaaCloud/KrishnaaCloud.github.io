@@ -6,6 +6,13 @@ const Projects = () => {
 
   const projectsList = [
     {
+      name: "Global Enterprise Infrastructure Stabilization",
+      description: "Led the end-to-end replication and stabilization of a high-traffic enterprise architecture. Diagnosed and resolved cascading failures involving ECS, ALB timeouts, and RDS database locking using AWS CloudTrail and CloudWatch.",
+      link: "https://github.com/KrishnaaCloud/Global-Enterprise-Infrastructure-Stabilization",
+      tags: ["AWS ECS", "AWS ALB", "AWS CDK", "RDS"],
+      category: "ECS"
+    },
+    {
       name: "AWS-MSK-Cross-Cloud-Proxy",
       description: "Advanced networking architecture utilizing HAProxy and TCP SNI routing to securely connect external cloud providers (Azure, GCP) to private Amazon MSK brokers without a VPN.",
       link: "https://github.com/KrishnaaCloud/AWS-MSK-Cross-Cloud-Proxy",
