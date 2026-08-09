@@ -6,6 +6,13 @@ const Projects = () => {
 
   const projectsList = [
     {
+      name: "Global API: High-Traffic Microservice Architecture",
+      description: "Architected a mission-critical async-first Python microservice on AWS ECS, successfully serving 3.5M+ weekly requests. Engineered unified Cloudflare DNS routing from multiple domains into a single ALB. Deployed full infrastructure via AWS CDK.",
+      link: "https://github.com/KrishnaaCloud/Global-API-CDK",
+      tags: ["AWS CDK", "Python", "ECS", "Cloudflare", "MongoDB"],
+      category: "All"
+    },
+    {
       name: "Mahashivratri High-Volume Donation Processor (AWS)",
       description: "Engineered a highly scalable, event-driven order processing system utilizing AWS Lambda, EventBridge, and DynamoDB. Decoupled backend services for asynchronous event routing. Deployed the entire stack using Infrastructure-as-Code (AWS CDK) to eliminate server management overhead.",
       link: "https://github.com/KrishnaaCloud/mahashivratri-donation-processor",
