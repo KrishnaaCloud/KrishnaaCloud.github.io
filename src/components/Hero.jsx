@@ -16,7 +16,7 @@ const Hero = () => {
       <h1 className="name-title">Jothi Krishna M</h1>
       <h2 className="role-title">3X AWS Certified | DevOps Engineer Professional</h2>
       <p className="bio">
-        Platform and DevOps Engineer with 3+ years of hands-on production experience. Independently own enterprise-scale Kafka/MSK platforms and ECS infrastructure at Isha Foundation. AWS Certified DevOps Engineer – Professional, Solutions Architect – Associate, and Cloud Practitioner.
+        Platform and DevOps Engineer specializing in high-traffic cloud infrastructure. I architect and scale mission-critical AWS environments—from zero-trust CI/CD pipelines to enterprise Kafka platforms processing millions of daily events. AWS Certified DevOps Engineer Professional.
       </p>
       <div className="contact-links">
         <a href="/resume.docx" download="Jothi_Krishna_Resume.docx" className="btn primary">
