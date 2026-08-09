@@ -6,9 +6,9 @@ const Projects = () => {
 
   const projectsList = [
     {
-      name: "Global API: High-Traffic Microservice Architecture",
+      name: "Enterprise AWS ECS Microservice (High-Traffic)",
       description: "Architected a mission-critical async-first Python microservice on AWS ECS, successfully serving 3.5M+ weekly requests. Engineered unified Cloudflare DNS routing from multiple domains into a single ALB. Deployed full infrastructure via AWS CDK.",
-      link: "https://github.com/KrishnaaCloud/Global-API-CDK",
+      link: "https://github.com/KrishnaaCloud/Enterprise-AWS-ECS-Microservice",
       tags: ["AWS CDK", "Python", "ECS", "Cloudflare", "MongoDB"],
       category: "All"
     },
