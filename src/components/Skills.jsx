@@ -38,6 +38,7 @@ const Skills = () => {
       viewport={{ once: true, margin: "-100px" }}
       transition={{ duration: 0.8 }}
     >
+      <h3 className="section-title">Certifications</h3>
       <div className="certifications-container">
         {certifications.map((cert, index) => (
           <motion.a 
