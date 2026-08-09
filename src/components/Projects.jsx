@@ -6,9 +6,9 @@ const Projects = () => {
 
   const projectsList = [
     {
-      name: "Global Enterprise Infrastructure Stabilization",
+      name: "AWS-ECS-Cross-Region-Migration",
       description: "Led the end-to-end replication and stabilization of a high-traffic enterprise architecture. Diagnosed and resolved cascading failures involving ECS, ALB timeouts, and RDS database locking using AWS CloudTrail and CloudWatch.",
-      link: "https://github.com/KrishnaaCloud/Global-Enterprise-Infrastructure-Stabilization",
+      link: "https://github.com/KrishnaaCloud/AWS-ECS-Cross-Region-Migration",
       tags: ["AWS ECS", "AWS ALB", "AWS CDK", "RDS"],
       category: "ECS"
     },
