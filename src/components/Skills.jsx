@@ -14,13 +14,22 @@ const Skills = () => {
       name: "AWS Certified Solutions Architect - Associate",
       image: "/aws-certified-solutions-architect-associate.png",
       id: "94b7d279-91c8-479c-b3a0-9e674de96ff3",
-      url: "https://www.credly.com/badges/94b7d279-91c8-479c-b3a0-9e674de96ff3/public_url"
+      url: "https://www.credly.com/badges/94b7d279-91c8-479c-b3a0-9e674de96ff3/public_url",
+      date: "Issued Oct 2024"
     },
     {
       name: "AWS Certified Cloud Practitioner",
       image: "/aws-certified-cloud-practitioner.png",
       id: "8e756783-9f77-420c-8e1a-9d3e9ed45811",
-      url: "https://www.credly.com/badges/8e756783-9f77-420c-8e1a-9d3e9ed45811/public_url"
+      url: "https://www.credly.com/badges/8e756783-9f77-420c-8e1a-9d3e9ed45811/public_url",
+      date: "Issued Mar 2024"
+    },
+    {
+      name: "GitHub Authenticated Developer",
+      image: "https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png", // Using a default github achievement badge image
+      id: "Verified via GitHub",
+      url: "https://github.com/KrishnaaCloud",
+      date: "Issued Aug 2026"
     }
   ];
 

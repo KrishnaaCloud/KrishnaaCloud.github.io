@@ -6,6 +6,13 @@ const Projects = () => {
 
   const projectsList = [
     {
+      name: "Internal Playwright Testing Platform",
+      description: "Architected a centralized Next.js and Express platform for orchestrating automated Playwright browser tests. Built a secure Node.js local agent using WebSockets to execute browser tests locally without compromising EC2 server security.",
+      link: "https://github.com/KrishnaaCloud/Playwright-Agent",
+      tags: ["Node.js", "Next.js", "Express", "WebSockets", "Playwright"],
+      category: "All"
+    },
+    {
       name: "AWS-ECS-Cross-Region-Migration",
       description: "Led the end-to-end replication and stabilization of a high-traffic enterprise architecture. Diagnosed and resolved cascading failures involving ECS, ALB timeouts, and RDS database locking using AWS CloudTrail and CloudWatch.",
       link: "https://github.com/KrishnaaCloud/AWS-ECS-Cross-Region-Migration",
