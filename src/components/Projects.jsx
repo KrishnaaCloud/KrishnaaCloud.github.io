@@ -28,14 +28,14 @@ const Projects = () => {
       category: "CI/CD"
     },
     {
-      name: "AWS-ECS-Cross-Region-Migration",
+      name: "AWS ECS Cross-Region Migration",
       description: "Led the end-to-end replication and stabilization of a high-traffic enterprise architecture. Diagnosed and resolved cascading failures involving ECS, ALB timeouts, and RDS database locking using AWS CloudTrail and CloudWatch.",
       link: "https://github.com/KrishnaaCloud/AWS-ECS-Cross-Region-Migration",
       tags: ["AWS ECS", "AWS ALB", "AWS CDK", "RDS"],
       category: "ECS"
     },
     {
-      name: "AWS-MSK-Cross-Cloud-Proxy",
+      name: "AWS MSK Cross-Cloud Proxy",
       description: "Advanced networking architecture utilizing HAProxy and TCP SNI routing to securely connect external cloud providers (Azure, GCP) to private Amazon MSK brokers without a VPN.",
       link: "https://github.com/KrishnaaCloud/AWS-MSK-Cross-Cloud-Proxy",
       tags: ["Amazon MSK", "HAProxy", "Networking", "TCP/SNI"],
@@ -56,28 +56,28 @@ const Projects = () => {
       category: "All"
     },
     {
-      name: "aws-msk-kafka-platform",
+      name: "AWS MSK Kafka Platform Migration",
       description: "Led zero-downtime migration of 481 topics / 5 GB daily throughput from self-managed Kafka to Amazon MSK. Automated staggered ingestion, integrated AWS Secrets Manager, and reduced DB query spike incidents by 57%.",
       link: "https://github.com/KrishnaaCloud/aws-msk-kafka-platform",
       tags: ["Amazon MSK", "Apache Kafka", "Data Engineering"],
       category: "MSK"
     },
     {
-      name: "3-Tier-AWS-Infra-Using-Terraform",
+      name: "3-Tier AWS Infrastructure via Terraform",
       description: "A fully automated AWS 3-Tier Architecture built with Terraform, hosting a Python Flask web application. Includes ALB, EC2 instances, and Multi-AZ RDS MySQL.",
       link: "https://github.com/KrishnaaCloud/3-Tier-AWS-Infra-Using-Terraform",
       tags: ["Terraform", "AWS", "Infrastructure as Code"],
       category: "Other"
     },
     {
-      name: "aws-ecs-devops-cdk-stack",
+      name: "AWS ECS DevOps CDK Stack",
       description: "End-to-end automated AWS environment. Features dual GitHub Actions CI/CD pipelines deploying CDK CloudFormation and containerized ECS application.",
       link: "https://github.com/KrishnaaCloud/aws-ecs-devops-cdk-stack",
       tags: ["AWS CDK", "ECS", "CI/CD", "GitHub Actions"],
       category: "ECS"
     },
     {
-      name: "Jenkins-EC2-Tomcat-Pipeline",
+      name: "Jenkins EC2 Tomcat CI/CD Pipeline",
       description: "Complete CI/CD pipeline setup to automatically build and deploy a Java web app (WAR) to Apache Tomcat on AWS EC2 using Jenkins and Maven.",
       link: "https://github.com/KrishnaaCloud/Jenkins-EC2-Tomcat-Pipeline",
       tags: ["Jenkins", "EC2", "Tomcat", "CI/CD"],
