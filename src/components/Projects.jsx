@@ -6,6 +6,13 @@ const Projects = () => {
 
   const projectsList = [
     {
+      name: "Mahashivratri High-Volume Donation Processor (AWS)",
+      description: "Engineered a highly scalable, event-driven order processing system utilizing AWS Lambda, EventBridge, and DynamoDB. Decoupled backend services for asynchronous event routing. Deployed the entire stack using Infrastructure-as-Code (AWS CDK) to eliminate server management overhead.",
+      link: "https://github.com/KrishnaaCloud/mahashivratri-donation-processor",
+      tags: ["Serverless", "EventBridge", "AWS CDK", "Lambda", "DynamoDB"],
+      category: "All"
+    },
+    {
       name: "Internal Playwright Testing Platform",
       description: "Architected a centralized Next.js and Express platform for orchestrating automated Playwright browser tests. Built a secure Node.js local agent using WebSockets to execute browser tests locally without compromising EC2 server security.",
       link: "https://github.com/KrishnaaCloud/Playwright-Agent",
