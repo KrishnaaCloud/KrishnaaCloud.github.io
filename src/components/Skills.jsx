@@ -23,13 +23,6 @@ const Skills = () => {
       id: "8e756783-9f77-420c-8e1a-9d3e9ed45811",
       url: "https://www.credly.com/badges/8e756783-9f77-420c-8e1a-9d3e9ed45811/public_url",
       date: "Issued Mar 2024"
-    },
-    {
-      name: "GitHub Authenticated Developer",
-      image: "https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png", // Using a default github achievement badge image
-      id: "Verified via GitHub",
-      url: "https://github.com/KrishnaaCloud",
-      date: "Issued Aug 2026"
     }
   ];
 
