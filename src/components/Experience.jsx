@@ -8,14 +8,15 @@ const Experience = () => {
     {
       company: "Isha Foundation",
       role: "DevOps Engineer",
-      date: "Nov 2025 - Present · 10 mos",
+      date: "Nov 2025 - Present",
       type: "Full-time",
-      summary: "Leading enterprise-scale MSK/ECS infrastructure.",
+      summary: "Architecting high-traffic microservices, zero-trust CI/CD, and enterprise Kafka streaming platforms.",
       details: [
-        "Independently own and optimize enterprise-scale Kafka/MSK platforms and ECS infrastructure.",
-        "Ensure high availability and reliability for mission-critical applications.",
-        "Automated staggered ingestion and integrated AWS Secrets Manager.",
-        "Reduced DB query spike incidents by 57%."
+        "Architected an async-first Python microservice on AWS ECS, effortlessly serving over 3.5 Million weekly HTTP requests behind unified Cloudflare DNS routing.",
+        "Engineered zero-trust, automated CI/CD pipelines via GitHub Actions for AWS Managed Airflow (MWAA) and ECS container rollouts, utilizing AWS OIDC and Secrets Manager.",
+        "Led the zero-downtime cross-region migration and scaling of a mission-critical enterprise architecture across the EU and APAC regions.",
+        "Single-handedly owned the organization-wide Apache Kafka ecosystem, migrating 481 topics (5GB+ daily throughput) to Amazon MSK while architecting cross-cloud proxy routing to Azure.",
+        "Eliminated cascading architectural failures and reduced database query spikes by 57% through custom staggered-ingestion algorithms and ALB timeout tuning."
       ]
     },
     {
