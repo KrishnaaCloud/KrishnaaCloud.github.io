@@ -21,6 +21,13 @@ const Projects = () => {
     },
 
     {
+      name: "AWS MWAA (Apache Airflow) CI/CD Automation",
+      description: "Engineered highly secure, zero-trust GitHub Actions deployment pipelines for Amazon MWAA using AWS OIDC. Built a custom state-machine to trigger MWAA updates, sync DAGs to S3, and broadcast dynamic Slack alerts.",
+      link: "https://github.com/KrishnaaCloud/AWS-MWAA-CICD-Pipeline",
+      tags: ["GitHub Actions", "Apache Airflow", "AWS MWAA", "CI/CD", "Bash"],
+      category: "CI/CD"
+    },
+    {
       name: "AWS-ECS-Cross-Region-Migration",
       description: "Led the end-to-end replication and stabilization of a high-traffic enterprise architecture. Diagnosed and resolved cascading failures involving ECS, ALB timeouts, and RDS database locking using AWS CloudTrail and CloudWatch.",
       link: "https://github.com/KrishnaaCloud/AWS-ECS-Cross-Region-Migration",
