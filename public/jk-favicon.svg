@@ -1,4 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <rect width="100" height="100" rx="25" fill="#C59B3F"/>
-  <text x="50" y="55" font-family="system-ui, -apple-system, sans-serif" font-size="50" font-weight="bold" fill="#0A0F0D" text-anchor="middle" dominant-baseline="middle">JK</text>
+  <rect width="100" height="100" fill="#fcd033"/>
+  <!-- J -->
+  <path d="M 38 35 L 36 60 C 36 75 20 70 20 55" fill="none" stroke="#0c0c0c" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- K -->
+  <path d="M 45 32 L 43 70 M 62 35 L 44 50 L 63 68" fill="none" stroke="#0c0c0c" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
