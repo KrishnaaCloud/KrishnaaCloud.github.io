@@ -8,7 +8,7 @@ const Projects = () => {
     {
       name: "Secure Financial DB Access Portal (DevSecOps)",
       description: "Engineered a zero-trust Supervised Browser portal in a no-access AWS account using FIDO hardware keys. Deployed ephemeral container sessions via AWS ECS and AWS CDK. Optimized costs using EC2 bin-packing algorithms while strictly enforcing immutable audit trails via EFS session recording and a private RDS backend.",
-      link: "https://github.com/jothikrishna-DevOps/Secure-ERP-Access-Portal",
+      link: "https://github.com/KrishnaaCloud/Secure-ERP-Access-Portal",
       tags: ["DevSecOps", "AWS ECS", "AWS CDK", "OIDC", "Security"],
       category: "ECS"
     },
