@@ -6,6 +6,13 @@ const Projects = () => {
 
   const projectsList = [
     {
+      name: "Enterprise Golden AMI Pipeline",
+      description: "Architected a centralized Golden AMI pipeline using AWS EC2 Image Builder, distributing hardened AMIs across 9 AWS accounts. Automated cross-account sharing via EventBridge/Lambda and optimized cloud-init sequences to slash ASG boot times by 33%.",
+      link: "https://github.com/KrishnaaCloud/Golden-AMI-Pipeline",
+      tags: ["AWS EC2 Image Builder", "AWS Lambda", "AWS SSM", "Python", "DevSecOps"],
+      category: "CI/CD"
+    },
+    {
       name: "Secure Financial DB Access Portal (DevSecOps)",
       description: "Engineered a zero-trust Supervised Browser portal in a no-access AWS account using FIDO hardware keys. Deployed ephemeral container sessions via AWS ECS and AWS CDK. Optimized costs using EC2 bin-packing algorithms while strictly enforcing immutable audit trails via EFS session recording and a private RDS backend.",
       link: "https://github.com/KrishnaaCloud/Secure-ERP-Access-Portal",
