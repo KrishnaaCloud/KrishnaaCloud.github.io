@@ -12,17 +12,19 @@ const Experience = () => {
       type: "Full-time",
       summary: "Architecting high-traffic microservices, zero-trust CI/CD, and enterprise Kafka streaming platforms.",
       details: [
-        "Architected an async-first Python microservice on AWS ECS, effortlessly serving over 3.5 Million weekly HTTP requests behind unified Cloudflare DNS routing.",
+        "Named DevOps owner for 39 production applications across 14 application groups, an organization-wide Kafka/MSK platform, and the ECS estate behind 18 backend services.",
+        "Architected an async-first Python microservice on AWS ECS, serving over 3.5 Million weekly HTTP requests behind unified Cloudflare DNS routing.",
         "Engineered zero-trust, automated CI/CD pipelines via GitHub Actions for AWS Managed Airflow (MWAA) and ECS container rollouts, utilizing AWS OIDC and Secrets Manager.",
         "Led the zero-downtime cross-region migration and scaling of a mission-critical enterprise architecture across the EU and APAC regions.",
-        "Single-handedly owned the organization-wide Apache Kafka ecosystem, migrating 481 topics (5GB+ daily throughput) to Amazon MSK while architecting cross-cloud proxy routing to Azure.",
+        "Owned the organization-wide Apache Kafka ecosystem, migrating 481 topics (5GB+ daily throughput) to Amazon MSK while architecting cross-cloud proxy routing to Azure.",
+        "Own the AWS Glue setup connecting the organization's databases for the analytics team.",
         "Eliminated cascading architectural failures and reduced database query spikes by 57% through custom staggered-ingestion algorithms and ALB timeout tuning."
       ]
     },
     {
       company: "ServerCake India",
       role: "DevOps Engineer",
-      date: "Nov 2022 - Apr 2025",
+      date: "Nov 2022 - Oct 2025",
       type: "Full-time",
       summary: "Managed multi-client AWS infrastructure, secure VPC architectures, and CI/CD automation.",
       details: [

@@ -6,21 +6,21 @@ const Projects = () => {
 
   const projectsList = [
     {
-      name: "AWS EKS GitOps & Observability Platform",
-      description: "Architected a production-grade Kubernetes platform on AWS EKS (v1.37.1) using Terraform, GitOps (ArgoCD app-of-apps), and CEL-based policy guardrails (Kyverno). Implemented end-to-end SLO observability (99% availability, 95% latency <50ms) with Prometheus, Grafana, and multi-window burn rate alerts. Engineered for zero persistent EBS storage overhead with fully automated, timed on-demand teardown.",
+      name: "AWS EKS Reference Platform",
+      description: "Built a reference Kubernetes platform on AWS EKS with Terraform, ArgoCD GitOps (app-of-apps) and Kyverno admission policies. Defined 2 SLOs (99% availability, 95% of probes under 50 ms) with Prometheus burn-rate alerts and a Grafana dashboard. In a controlled test, the alert fired 2m 22s after an outage. Rebuilt in about 11.5 minutes and destroyed after each session, with every timing logged in the repo.",
       link: "https://github.com/KrishnaaCloud/eks-platform",
       tags: ["AWS EKS", "Terraform", "GitOps", "ArgoCD", "Kyverno", "Prometheus", "Grafana"],
       category: "EKS"
     },
     {
       name: "Enterprise Golden AMI Pipeline",
-      description: "Architected a centralized Golden AMI pipeline using AWS EC2 Image Builder, distributing hardened AMIs across 9 AWS accounts. Automated cross-account sharing via EventBridge/Lambda and optimized cloud-init sequences to slash ASG boot times by 33%.",
+      description: "Architected a centralized Golden AMI pipeline using AWS EC2 Image Builder, distributing hardened AMIs across 12 AWS accounts. Automated cross-account sharing via EventBridge/Lambda and optimized cloud-init sequences to cut ECS readiness time from 153s to 102s (33%).",
       link: "https://github.com/KrishnaaCloud/Golden-AMI-Pipeline",
       tags: ["AWS EC2 Image Builder", "AWS Lambda", "AWS SSM", "Python", "DevSecOps"],
       category: "CI/CD"
     },
     {
-      name: "Secure Financial DB Access Portal (DevSecOps)",
+      name: "Zero-Access Financial ERP Platform",
       description: "Engineered a zero-trust Supervised Browser portal in a no-access AWS account using FIDO hardware keys. Deployed ephemeral container sessions via AWS ECS and AWS CDK. Optimized costs using EC2 bin-packing algorithms while strictly enforcing immutable audit trails via EFS session recording and a private RDS backend.",
       link: "https://github.com/KrishnaaCloud/Secure-ERP-Access-Portal",
       tags: ["DevSecOps", "AWS ECS", "AWS CDK", "OIDC", "Security"],
@@ -82,31 +82,10 @@ const Projects = () => {
       link: "https://github.com/KrishnaaCloud/aws-msk-kafka-platform",
       tags: ["Amazon MSK", "Apache Kafka", "Data Engineering"],
       category: "MSK"
-    },
-    {
-      name: "3-Tier AWS Infrastructure via Terraform",
-      description: "A fully automated AWS 3-Tier Architecture built with Terraform, hosting a Python Flask web application. Includes ALB, EC2 instances, and Multi-AZ RDS MySQL.",
-      link: "https://github.com/KrishnaaCloud/3-Tier-AWS-Infra-Using-Terraform",
-      tags: ["Terraform", "AWS", "Infrastructure as Code"],
-      category: "Other"
-    },
-    {
-      name: "AWS ECS DevOps CDK Stack",
-      description: "End-to-end automated AWS environment. Features dual GitHub Actions CI/CD pipelines deploying CDK CloudFormation and containerized ECS application.",
-      link: "https://github.com/KrishnaaCloud/aws-ecs-devops-cdk-stack",
-      tags: ["AWS CDK", "ECS", "CI/CD", "GitHub Actions"],
-      category: "ECS"
-    },
-    {
-      name: "Jenkins EC2 Tomcat CI/CD Pipeline",
-      description: "Complete CI/CD pipeline setup to automatically build and deploy a Java web app (WAR) to Apache Tomcat on AWS EC2 using Jenkins and Maven.",
-      link: "https://github.com/KrishnaaCloud/Jenkins-EC2-Tomcat-Pipeline",
-      tags: ["Jenkins", "EC2", "Tomcat", "CI/CD"],
-      category: "CI/CD"
     }
   ];
 
-  const categories = ["All", "EKS", "MSK", "ECS", "CI/CD", "Other"];
+  const categories = ["All", "EKS", "MSK", "ECS", "CI/CD"];
   const filteredProjects = filter === 'All' ? projectsList : projectsList.filter(p => p.category === filter);
 
   return (
