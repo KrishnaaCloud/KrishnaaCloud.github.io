@@ -19,7 +19,7 @@ const Hero = () => {
         DevOps and Platform Engineer running 39 production applications on AWS: the ECS estate behind 18 backend services and an organization-wide Kafka/MSK platform (481 topics, 5 GB+ daily), with infrastructure built as code in AWS CDK and Terraform. 3x AWS Certified, including DevOps Engineer Professional.
       </p>
       <div className="contact-links">
-        <a href="/resume.docx" download="Jothi_Krishna_Resume.docx" className="btn primary">
+        <a href="/Jothi_Krishna_Resume.pdf" download="Jothi_Krishna_Resume.pdf" target="_blank" rel="noreferrer" className="btn primary">
           <FaFileDownload size={20} />
           Download Resume
         </a>
