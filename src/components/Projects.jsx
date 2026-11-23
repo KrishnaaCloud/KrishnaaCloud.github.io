@@ -6,6 +6,13 @@ const Projects = () => {
 
   const projectsList = [
     {
+      name: "AWS EKS GitOps & Observability Platform",
+      description: "Architected a production-grade Kubernetes platform on AWS EKS (v1.37.1) using Terraform, GitOps (ArgoCD app-of-apps), and CEL-based policy guardrails (Kyverno). Implemented end-to-end SLO observability (99% availability, 95% latency <50ms) with Prometheus, Grafana, and multi-window burn rate alerts. Engineered for zero persistent EBS storage overhead with fully automated, timed on-demand teardown.",
+      link: "https://github.com/KrishnaaCloud/eks-platform",
+      tags: ["AWS EKS", "Terraform", "GitOps", "ArgoCD", "Kyverno", "Prometheus", "Grafana"],
+      category: "EKS"
+    },
+    {
       name: "Enterprise Golden AMI Pipeline",
       description: "Architected a centralized Golden AMI pipeline using AWS EC2 Image Builder, distributing hardened AMIs across 9 AWS accounts. Automated cross-account sharing via EventBridge/Lambda and optimized cloud-init sequences to slash ASG boot times by 33%.",
       link: "https://github.com/KrishnaaCloud/Golden-AMI-Pipeline",
@@ -99,7 +106,7 @@ const Projects = () => {
     }
   ];
 
-  const categories = ["All", "MSK", "ECS", "CI/CD", "Other"];
+  const categories = ["All", "EKS", "MSK", "ECS", "CI/CD", "Other"];
   const filteredProjects = filter === 'All' ? projectsList : projectsList.filter(p => p.category === filter);
 
   return (

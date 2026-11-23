@@ -27,7 +27,7 @@ const Skills = () => {
   ];
 
   const keySkills = [
-    "AWS ECS", "Kafka & AWS MSK", "CI/CD", "Terraform", "Infrastructure as Code", "Kubernetes", "AWS CDK", "GitHub Actions"
+    "AWS EKS", "AWS ECS", "Kafka & AWS MSK", "GitOps (ArgoCD)", "Terraform", "Infrastructure as Code", "Kubernetes", "AWS CDK", "GitHub Actions"
   ];
 
   return (
