@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 const Skills = () => {
   const certifications = [
     {
-      name: "AWS Certified DevOps Engineer – Professional",
+      name: "AWS Certified DevOps Engineer - Professional",
       image: "/aws-certified-devops-engineer-professional.png",
       id: "6e687b08-4d71-4bcd-9b5c-de80793e34fc",
       url: "https://www.credly.com/badges/6e687b08-4d71-4bcd-9b5c-de80793e34fc/public_url",
